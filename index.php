@@ -15,6 +15,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/swiper.js" defer></script>
     <title>SS</title>
 </head>
 <body>
@@ -211,10 +216,5 @@
         <!-- /.info -->
     </main>
     <?php require 'template/footer.php' ?>
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/swiper.js"></script>
 </body>
 </html>
