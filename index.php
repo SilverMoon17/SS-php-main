@@ -20,7 +20,7 @@
 <body>
     <?php require 'template/header.php' ?>
     <main class="main">
-        <div class="slider swiper-container">
+        <div class="slider swiper">
             <div class="swiper-wrapper">
                 <section class="slide slide-1 swiper-slide">
                     <div class="container">
@@ -136,7 +136,7 @@
                         <img src="img/apple-logo.svg" alt="" class="apple-logo">
                         <!-- <a data-fancybox="gallery-iPhone12PROMAX" class="info-image-link" href="img/iphone-12-proMax-big.jpg"><img src="img/iphone-12-proMax-small-1.png" alt="iPhone" class="info-image"></a>-->
                         <div class="col-lg-6 col-12">
-                            <div class="swiper-container gallery-top-1">
+                            <div class="swiper gallery-top-1">
                                 <div class="swiper-wrapper">
                                   <div class="swiper-slide phone-slide"><a data-fancybox="gallery-iPhone12PROMAX" class="info-image-link" href="img/info-slides-img/iphone-12-ProMax-big.png"><img src="img/info-slides-img/iphone-12-ProMax-small-1.png" alt="iPhone" class="info-image"></a></div>
                                   <div class="swiper-slide phone-slide"><a data-fancybox="gallery-iPhone12PROMAX" class="info-image-link" href="img/info-slides-img/iphone-12-ProMax-big-2.png"><img src="img/info-slides-img/iphone-12-ProMax-small-2.png" alt="iPhone" class="info-image"></a></div>
@@ -147,7 +147,7 @@
                                 <div class="swiper-button-next swiper-button-black"></div>
                                 <div class="swiper-button-prev swiper-button-black mr-2"></div>
                               </div>
-                              <div class="swiper-container gallery-thumbs-1" style="text-align: center;">
+                              <div class="swiper gallery-thumbs-1" style="text-align: center;">
                                 <div class="swiper-wrapper">
                                   <div class="swiper-slide"><img src="img/info-slides-img/iphone-12-ProMax-thumb-1.png" alt="iPhone" class="info-image"></div>
                                   <div class="swiper-slide"><img src="img/info-slides-img/iphone-12-ProMax-thumb-2.png" alt="iPhone" class="info-image"></div>
@@ -171,7 +171,7 @@
                     <div class="col-lg-6 col-12 d-flex flex-column justify-content-center align-items-center pt-md-0 pt-4">
                         <img src="img/android-logo.svg" alt="" class="apple-logo">
                         <div class="col-lg-6 col-12">
-                            <div class="swiper-container gallery-top-2">
+                            <div class="swiper gallery-top-2">
                                 <div class="swiper-wrapper">
                                   <div class="swiper-slide phone-slide"><a data-fancybox="gallery-huaweiP40PRO" class="info-image-link" href="img/info-slides-img/huawei_p40_pro-big-1.png"><img src="img/info-slides-img/huawei_p40_pro-small-1.png" alt="Huawei P40 PRO" class="info-image"></a></div>
                                   <div class="swiper-slide phone-slide"><a data-fancybox="gallery-huaweiP40PRO" class="info-image-link" href="img/info-slides-img/huawei_p40_pro-big-3.png"><img src="img/info-slides-img/huawei_p40_pro-small-3.png" alt="Huawei P40 PRO" class="info-image"></a></div>
@@ -182,7 +182,7 @@
                                 <div class="swiper-button-next swiper-button-black"></div>
                                 <div class="swiper-button-prev swiper-button-black"></div>
                               </div>
-                              <div class="swiper-container gallery-thumbs-2" style="text-align: center;">
+                              <div class="swiper gallery-thumbs-2" style="text-align: center;">
                                 <div class="swiper-wrapper">
                                   <div class="swiper-slide"><img src="img/info-slides-img/huawei_p40_pro-thumb-1.png" alt="iPhone" class="info-image"></div>
                                   <div class="swiper-slide"><img src="img/info-slides-img/huawei_p40_pro-thumb-3.png" alt="iPhone" class="info-image"></div>
