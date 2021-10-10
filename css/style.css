@@ -610,6 +610,10 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 .avatar-image-cabinet:hover {
     cursor: url('../img/cursor-zoom-in.png'), zoom-in;
 }
+.avatar-image-cabinet {
+    object-fit: cover;
+    border-radius: 5px;
+}
 .avatar-image-link {
     margin-left: 13%;
 }

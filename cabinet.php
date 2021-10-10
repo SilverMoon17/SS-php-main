@@ -30,7 +30,7 @@
                 <form class="mt-5 d-flex">
                     <?php 
                     if ($_SESSION['user']['avatar'] != '') {
-                        echo '<a data-fancybox="avatar" class="avatar-image-link" href="' . $_SESSION['user']['avatar'] . '"><img src="' . $_SESSION['user']['avatar'] . '" class="avatar-image-cabinet" width="250px" height="250px" style="object-fit:cover;"></a>';
+                        echo '<a data-fancybox="avatar" class="avatar-image-link" href="' . $_SESSION['user']['avatar'] . '"><img src="' . $_SESSION['user']['avatar'] . '" class="avatar-image-cabinet" width="250px" height="250px"></a>';
                     }
                     ?>
                     <div class="information">
